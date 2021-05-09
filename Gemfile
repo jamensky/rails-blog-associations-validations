@@ -11,6 +11,7 @@ gem 'bootsnap'
 gem 'sqlite3', '~>1.3.6'
 
 group :development, :test do
+  gem 'pry-rails' 
   gem 'rack_session_access'
   gem "capybara"
   gem "database_cleaner"
